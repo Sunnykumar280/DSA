@@ -4,7 +4,7 @@ import java.util.List;
 public class PowerSet {
     private static void subsetString(String s, String cur, List<String> ans, int i) {
         if(i == s.length()){
-            if(cur.length()>0)
+//            if(cur.length()>0)
                 ans.add(cur);
             return;
 
